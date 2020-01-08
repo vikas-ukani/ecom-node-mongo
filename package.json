@@ -1,0 +1,25 @@
+{
+  "name": "node_apis",
+  "version": "1.0.0",
+  "description": "Node APIs ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vikasukani5@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "http": "0.0.0",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.13",
+    "passport": "^0.4.0"
+  }
+}
